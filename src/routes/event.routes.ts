@@ -8,7 +8,7 @@ class EventRoutes{
     private eventController: EventController;
     constructor(){
         this.router = Router();
-        const eventRepository = new EventRepositoryMongoose();
+        const eventRepository = new EventRepositoryMongoose;
         const eventUseCase = new EventUseCase(eventRepository);
         this.eventController = new EventController(eventUseCase);
         this.initRoutes();
