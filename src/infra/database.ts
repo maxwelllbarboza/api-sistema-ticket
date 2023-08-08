@@ -13,11 +13,3 @@ export async function connect(){
         
     }
 }
-
-echo "# api-sistema-ticket" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/maxwelllbarboza/api-sistema-ticket.git
-git push -u origin main
